@@ -2,8 +2,6 @@ const display = document.querySelector(".display");
 const buttons = document.querySelectorAll("button");
 const specialChars = ["%", "*", "/", "-", "+", "="];
 let output = "";
-console.log(document.getElementById("controller"));
-
 const calculate = (btnValue) => {
   if (btnValue === "=" && output !== "") {
     try {
